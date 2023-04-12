@@ -28,6 +28,8 @@ public class Tela_DAO {
             Model.ClasseX_DAO.multiplicacao();
         } else if (Model.ClasseX_DAO.operacao.equals("4")) {
             Model.ClasseX_DAO.divisao();
+        } else{
+            JOptionPane.showMessageDialog(null, "Opção inválida.", "ERRO.", 2);
         }
     }
 
